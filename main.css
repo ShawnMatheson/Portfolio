@@ -4,9 +4,10 @@ html{
 
 body{
     height: 100%;
-    background-image: url("background.jpg");
+    background-color: rgba(64,62,63,255);
     background-repeat:no-repeat;
     background-size:cover;
+    font-family: 'Roboto', sans-serif;
 }
 
 #main-container{
@@ -18,9 +19,12 @@ body{
 }
 
 #left-col{
-    border-right:2px solid rgb(67, 66, 66);
     height: 100%;
     color: white;
+    padding-top: 2.5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(39, 38, 38);
 }
 
 #right-col{
@@ -29,6 +33,42 @@ body{
 }   
 
 #nav-row{
-    display: flex;
-    align-items: end;
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
+    font-size:x-large
+}
+.nav-item{
+    margin-left: 15px;
+}
+
+#aboutme{
+    margin-top: 5%;
+
+}
+
+#shawn-image{
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    border-radius: 60px;
+}
+
+#github-image{
+    display: inline-block;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}
+
+#github-name{
+    display: inline-block;
+    margin: auto;
+    margin-left: 5px;
+}
+
+H2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
 }
